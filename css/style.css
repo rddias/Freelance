@@ -1,0 +1,36 @@
+
+.jumbotron {
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .container-fluid {
+  margin-top: 50px;
+/*  background-color:  rgba(62, 100, 35, 0.6) ;*/
+  color: white;  
+}
+
+#header .navbar{
+  opacity: 0.6;
+}
+
+#about .container-fluid {
+/*  background-color: #d7d6d2;*/
+  background-color:#ffffff;
+  
+}
+
+#portifolio .container-fluid {
+  background-color: rgba(62, 100, 35);
+}
+
+#about .test_class,
+#about .about_card {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;  
+}
