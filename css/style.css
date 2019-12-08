@@ -1,3 +1,32 @@
+/*
+
+font-family: 'Anton', sans-serif;
+font-family: 'Chelsea Market', cursive;
+*/
+
+body {
+/*  font-family: 'Anton', sans-serif !important;*/
+  font-family: 'Chelsea Market', cursive !important;
+  font-size: 1.5rem;
+}
+ 
+.title_h1 {
+  font-family: 'Chelsea Market', cursive !important;
+  font-size: 3.5rem;
+}
+
+.title_h1-header {  
+  color: rgba(141, 141, 21, 0.81);  
+}
+
+.title_h2 {
+/*font-family: 'Anton', sans-serif;*/
+  font-size: 2.5rem;  
+}
+
+.title_h2-header {
+  color: #393509;
+}
 
 .jumbotron {
   background-image: url(../img/background.jpg);
@@ -6,6 +35,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 #header .container-fluid {
   margin-top: 50px;
@@ -17,14 +48,15 @@
   opacity: 0.6;
 }
 
-#about .container-fluid {
-/*  background-color: #d7d6d2;*/
+#about > .container-fluid {
   background-color:#ffffff;
+  min-height: 550px;
   
 }
 
-#portifolio .container-fluid {
-  background-color: rgba(62, 100, 35);
+#about .card{
+  width: 18rem;
+  
 }
 
 #about .test_class,
@@ -33,4 +65,17 @@
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;  
+}
+
+#rocket_icon {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;  
+  
+}
+
+
+#portifolio .container-fluid {
+/*  background-color: black;*/
 }

@@ -7,9 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Chelsea+Market&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <title>Website Development</title>
   </head>
   <body>
     <header id="header">
@@ -43,27 +45,27 @@
             </ul>
           </div>
         </nav>          
-        <div class="d-flex flex-column justify-content-end p-4 h-100 font-weight-bold text-light">          
-          <div><h1 class="display-4 font-weight-bold">Website design</h1></div>
-          <p class="lead font-weight-bold">We design modern and beautful websites.</p>
+        <div class="d-flex flex-column justify-content-end p-4 h-100 text-light">          
+          <div class="title_h1 title_h1-header">Website Design & Development</div>
+          <div class="title_h2 title_h2-header">We design modern and beautful websites.</div>
         </div>
       </div>   
     </header>
   
     <section id="about">
-      <div class="container-fluid d-flex flex-column" style="min-height: 400px">
-        <div class="container">          
-          <div class=".align-self-center text-center mt-2 mb-4">
-            <h1>About us</h1>
+      <div class="container-fluid d-flex flex-column">
+        <div class="container pt-5">          
+          <div class="title_h1 .align-self-center text-center pb-5">
+            About Us
           </div>
           <div class="row justify-content-center">
             <div class="col-auto mb-3">
-              <div class="card" id="test" style="width: 18rem;">
+              <div class="card card-width" id="responsive_card">
                 <div class="card-header bg-dark text-white">Desing for any screen size</div>
                 <div class="card-body">
                   <h6 class="card-text">Responsive website.<br> Dynamically fit any screen size.</h6>
                   <div class="d-flex flex-colunm justify-content-center w-100 pt-3">   
-                    <div class="d-flex flex-row justify-content-between about_card flex-wrap w-100" style="height: auto" > 
+                    <div class="d-flex flex-row justify-content-between about_card flex-wrap w-100"> 
                       <div class="test_class bg-primary rounded" style="height: 50px; width: 50px">                  
                       </div>
                       <div class="test_class bg-success rounded" style="height: 50px; width: 50px">
@@ -76,28 +78,24 @@
               </div>
             </div>
             <div class="col-auto mb-3">
-              <div class="card" id="test" style="width: 18rem;">
+              <div class="card">
                 <div class="card-header bg-dark text-white">SEO - Search Engine Optimization</div>
                 <div class="card-body">
                   <h6 class="card-text">Appear first on search results.<br>Stay on the top</h6>
-
-                      <div class="text-center mt-4">                  
-                        <img src="img/top.png" alt="Top" style="height: 100px">
-                      </div>
-
+                    <div class="text-center mt-4">                  
+                      <img src="img/top.png" alt="Top" style="height: 100px">
+                    </div>
                 </div>
               </div>
             </div>
             <div class="col-auto mb-3">
-              <div class="card" id="test" style="width: 18rem;">
+              <div class="card" id="rocket">
                 <div class="card-header bg-dark text-white">Design to scale</div>
                 <div class="card-body">
-                  <h6 class="card-text">We are ready to scale the website up.</h6>
-                  
-                      <div class="text-center mt-4">                  
-                        <img src="img/rocket.png" alt="Top" style="height: 100px">
-                      </div>
-                   
+                  <h6 class="card-text">We are ready to scale the website up.</h6>                  
+                    <div class="text-center mt-4">                  
+                      <img src="img/rocket.png" id="rocket_icon" alt="Top" style="height: 100px">
+                    </div>                   
                 </div>
               </div>
             </div>
@@ -105,18 +103,46 @@
         </div>          
       </div>
     </section> 
-
     
     <section id="portifolio">
-      <div class="container-fluid">
-        <p>Te aliqua laborum. Admodum velit ipsum fabulas quorum, fabulas ut dolor 
-          quibusdam, sed cillum deserunt doctrina, eu velit illum e appellat. Summis 
-          aliquip domesticarum ubi aliquip veniam doctrina incididunt ea qui labore et 
-          legam ne ne expetendis despicationes. De ex fidelissimae an officia nisi 
-          quamquam incurreret ubi in a tamen probant a ita quem ullamco consectetur. Et 
-          ita labore lorem enim. Laboris ab consequat ea te anim aliquip. Ab veniam aut 
-          quae hic e hic aliqua deserunt. Non appellat id excepteur, quo ut arbitrantur.
-        </p>
+      <div class="container-fluid bg-dark text-white">
+        <div class="container pt-5 pb-5">
+          <div class="title_h1 .align-self-center text-center mt-2 mb-5">
+            Portifolio
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img class="card-img border" src="img/micamoraes.png" alt="Bologna" style="height: autp">
+                <div class="card-body">
+                  <h4 class="card-title text-dark">Mica Moraes Website</h4>
+                  <p class="card-text text-dark">Bespoke website for Brazillian actress.</p>
+                  <a href="#" class="btn btn-info">Have a look</a>
+                </div>                
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img class="card-img border" src="img/evosystems.png" alt="Bologna" style="height: autp">
+                <div class="card-body">
+                  <h4 class="card-title text-dark">Evosystems</h4>
+                  <p class="card-text text-dark">Software Development Startup Company.</p>
+                  <a href="#" class="btn btn-info">Have a look</a>
+                </div>                
+              </div>
+            </div>
+             <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <img class="card-img border" src="img/thiswebsite.png" alt="Bologna" style="height: autp">
+                <div class="card-body">
+                  <h4 class="card-title text-dark">Freelance</h4>
+                  <p class="card-text text-dark">Freelance. This lovely Website :)</p>
+                  <a href="#" class="btn btn-info">Have a look</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section> 
     
