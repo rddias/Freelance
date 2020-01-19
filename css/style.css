@@ -6,12 +6,13 @@ font-family: 'Chelsea Market', cursive;
 
 body {
 /*  font-family: 'Anton', sans-serif !important;*/
-  font-family: 'Chelsea Market', cursive !important;
+/*  font-family: 'Chelsea Market', cursive !important;*/
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
 }
  
 .title_h1 {
-  font-family: 'Chelsea Market', cursive !important;
+/*  font-family: 'Chelsea Market', cursive !important;*/
   font-size: 3.5rem;
 }
 
@@ -60,7 +61,10 @@ body {
 }
 
 #about .test_class,
-#about .about_card {
+#about .about_card,
+#services .test_class,
+#services .about_card,
+#block_animation{
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
@@ -76,6 +80,6 @@ body {
 }
 
 
-#portifolio .container-fluid {
+#portfolio .container-fluid {
 /*  background-color: black;*/
 }

@@ -31,6 +31,14 @@ $(document).ready(function () {
       $(x[0]).attr('style', 'width: 100% !important');
     });  
   
+  var x = document.getElementById("block_animation");
+  $( "#div_block_animation" ).hover(function() {
+      $(x).attr('style', 'width: 50px !important');
+    },
+    function() {    
+      $(x).attr('style', 'width: 100% !important');
+    }); 
+  
   var icon = document.getElementById("rocket_icon");
   $( "#rocket" ).hover(function() {
       $(icon).attr('style', 'height: 150px');
