@@ -45,8 +45,16 @@ body {
   color: white;  
 }
 
-#header .navbar{
-  opacity: 0.6;
+#header .navbar {
+  background-color: #634804!important;
+  opacity: 0.8;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+  color: white;
+  opacity: 1;
 }
 
 #about > .container-fluid {
